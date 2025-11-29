@@ -1,0 +1,36 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid red !important; */
+}
+
+html, body {
+  /* Prevent any overflow-x scrollbar from being visible */
+  overflow-x: hidden; 
+  position: relative;
+}
+
+/* Font variables */
+:root {
+  --font-logo: "Playfair Display", serif;       /* Text after logo */
+  --font-nav: "Source Sans Pro", sans-serif;   /* Nav links */
+  --font-body: "Source Sans Pro", sans-serif;  /* Default body text */
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+  }
+
+  nav a, nav button {
+    font-family: var(--font-nav);
+  }
+
+  .logo-text {
+    font-family: var(--font-logo);
+    font-weight: 500; /* medium weight */
+  }
+}
