@@ -21,10 +21,10 @@ import {
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { FaBehance } from "react-icons/fa";
 
-import PROJECT_IMG_1 from "../assets/images/project-1.JPG";
-import PROJECT_IMG_2 from "../assets/images/project-2.JPG";
-import PROJECT_IMG_3 from "../assets/images/project-3.JPG";
-import PROJECT_IMG_4 from "../assets/images/project-4.PNG";
+import PROJECT_IMG_1 from "../assets/images/project-1.jpg";
+import PROJECT_IMG_2 from "../assets/images/project-2.jpg";
+import PROJECT_IMG_3 from "../assets/images/project-3.jpg";
+import PROJECT_IMG_4 from "../assets/images/project-4.png";
 import { image, label } from "framer-motion/client";
 import { number } from "framer-motion";
 
