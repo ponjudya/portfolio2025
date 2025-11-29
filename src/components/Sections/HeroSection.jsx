@@ -16,7 +16,7 @@ import { FaBehance } from "react-icons/fa";
 import { RiGithubLine } from "react-icons/ri";
 import { FaRegEnvelope } from "react-icons/fa"; 
 
-import PROFILE_PIC from '../../assets/images/profile_pic2.PNG';
+import PROFILE_PIC from '../../assets/images/profile_pic2.png';
 import { containerVariants, itemVariants } from "../../utils/helper";
 
 const HeroSection = () => {
