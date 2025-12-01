@@ -356,7 +356,7 @@ const ContactSection = () => {
                     >
                         Check out my resume for my full experience and skills.
                     </p>
-                    <a href="https://drive.google.com/file/d/1nKZ7PVKyMAhIQRwFFTAhh3ZwsOuvByE6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1FRRX2qTKsP5zJJ_Yp8FgOSfIFbKOMOGg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <motion.button
                             whileHover={{ y: -2, scale: 1.05 }}
                             whileTap={{ scale: 0.98 }}
